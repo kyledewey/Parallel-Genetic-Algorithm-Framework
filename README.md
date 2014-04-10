@@ -108,5 +108,10 @@ the truncation selection mechanism, but that might just be due to the
 nature of the problems the operator was applied to.  
 
 ## Compiling ##
-A simple "javac *.java" in the working directory suffices just fine.
+A simple call to `make` is necessary, like so:
+
+```console
+cd src
+make
+```
 
